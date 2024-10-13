@@ -1,0 +1,245 @@
+{
+  error: ReferenceError: Cannot access 'config' before initialization
+      at Object.<anonymous> (C:\Users\ahmet\Desktop\nodejs test\shopapp\startup\db.js:3:17)
+      at Module._compile (node:internal/modules/cjs/loader:1358:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+      at Module.load (node:internal/modules/cjs/loader:1208:32)
+      at Module._load (node:internal/modules/cjs/loader:1024:12)
+      at Module.require (node:internal/modules/cjs/loader:1233:19)
+      at require (node:internal/modules/helpers:179:18)
+      at Object.<anonymous> (C:\Users\ahmet\Desktop\nodejs test\shopapp\app.js:8:1)
+      at Module._compile (node:internal/modules/cjs/loader:1358:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1416:10),
+  level: 'error',
+  message: "uncaughtException: Cannot access 'config' before initialization\n" +
+    "ReferenceError: Cannot access 'config' before initialization\n" +
+    '    at Object.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\startup\\db.js:3:17)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:8:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)',
+  stack: "ReferenceError: Cannot access 'config' before initialization\n" +
+    '    at Object.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\startup\\db.js:3:17)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1208:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:1024:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1233:19)\n' +
+    '    at require (node:internal/modules/helpers:179:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:8:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)',
+  exception: true,
+  date: 'Sun Oct 13 2024 23:54:50 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 13664,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.13.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 70656000,
+      heapTotal: 55934976,
+      heapUsed: 25653248,
+      external: 20558322,
+      arrayBuffers: 18262663
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 393684.593 },
+  trace: [
+    {
+      column: 17,
+      file: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\startup\\db.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1358,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1416,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1208,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 1024,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1233,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 179,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1358,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1416,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-13-2024 23:54:50'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:56:31'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:56:41'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:57:16'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:58:25'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:03:07'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:03:12'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:08:54'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:09:04'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:12:25'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:12:44'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:13:02'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:13:37'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:14:38'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:15:12'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:16:40'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:21:43'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:22:04'
+}
+{
+  level: 'error',
+  message: 'Operation `products.find()` buffering timed out after 10000ms Operation `products.find()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.find()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:573:17)\n' +
+    '    at process.processTimers (node:internal/timers:514:7)',
+  timestamp: 'Oct-14-2024 00:23:59'
+}
+{
+  level: 'error',
+  message: 'Operation `products.find()` buffering timed out after 10000ms Operation `products.find()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.find()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:573:17)\n' +
+    '    at process.processTimers (node:internal/timers:514:7)',
+  timestamp: 'Oct-14-2024 00:26:31'
+}

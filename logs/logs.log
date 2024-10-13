@@ -1,0 +1,93 @@
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:57:16'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-13-2024 23:58:25'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:03:07'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:03:12'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:08:54'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:09:04'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:12:25'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:12:44'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:13:02'
+}
+{
+  message: 'Operation `categories.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:13:37'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:14:38'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:15:12'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:16:40'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:21:43'
+}
+{
+  message: 'Operation `products.find()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: 'Oct-14-2024 00:22:04'
+}
+{
+  level: 'error',
+  message: 'Operation `products.find()` buffering timed out after 10000ms Operation `products.find()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.find()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:573:17)\n' +
+    '    at process.processTimers (node:internal/timers:514:7)',
+  timestamp: 'Oct-14-2024 00:23:59'
+}
+{
+  level: 'error',
+  message: 'Operation `products.find()` buffering timed out after 10000ms Operation `products.find()` buffering timed out after 10000ms',
+  stack: 'MongooseError: Operation `products.find()` buffering timed out after 10000ms\n' +
+    '    at Timeout.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\collection.js:185:23)\n' +
+    '    at listOnTimeout (node:internal/timers:573:17)\n' +
+    '    at process.processTimers (node:internal/timers:514:7)',
+  timestamp: 'Oct-14-2024 00:26:31'
+}

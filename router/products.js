@@ -1,15 +1,19 @@
 const Joi = require('joi');
 const auth = require("../middleware/auth");
-
+require("express-async-errors");
+const logger = require("../startup/logger");
+require("config");
 const express = require("express");
 const router = express.Router();
 const {Product,Comment, validateProduct} = require("../models/product");
 const isAdmin = require('../middleware/isAdmin');
 
-router.get("/",async (req,res)=>{
-    const products = await Product.find().populate("category","name -_id")
-                                            .select("-isActive  -comments.date");
+router.get("/",async (req,res,next)=>{
+
+    const products = await Product.find().populate("category","name -_id").select("-isActive  -comments.date");
     res.send(products);
+        
+    
 });
 router.put("/comment/:id",async (req,res)=>{
     const product = await Product.findById(req.params.id);
