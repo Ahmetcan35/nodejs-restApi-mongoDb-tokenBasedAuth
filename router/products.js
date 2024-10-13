@@ -1,8 +1,10 @@
 const Joi = require('joi');
+const auth = require("../middleware/auth");
 
 const express = require("express");
 const router = express.Router();
 const {Product,Comment, validateProduct} = require("../models/product");
+const isAdmin = require('../middleware/isAdmin');
 
 router.get("/",async (req,res)=>{
     const products = await Product.find().populate("category","name -_id")
@@ -36,7 +38,7 @@ router.delete("/comment/:id",async (req,res)=>{
     res.send(deleteComment);
 
 });
-router.post("/",async (req,res)=>{
+router.post("/",[auth, isAdmin ],async (req,res)=>{
 
     const {error} = validateProduct(req.body);
 
