@@ -7,6 +7,5 @@ const database =config.get("db.name");
 const username = config.get("db.username");
 module.exports = function(){
 mongoose
- .connect(`mongodb+srv://${username}:${password}@ahmetcan.qcymhtx.mongodb.net/${database}?retryWrites=true&w=majority&appName=Ahmetcan`,{  useNewUrlParser: true,
-    useUnifiedTopology: true,})
+ .connect(`mongodb+srv://${username}:${password}@ahmetcan.qcymhtx.mongodb.net/${database}?retryWrites=true&w=majority&appName=Ahmetcan`)
  .then(() => logger.info("MongoDb sunucusuna başarılı bir şekilde bağlandı."))}
