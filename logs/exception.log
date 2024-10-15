@@ -243,3 +243,264 @@
     '    at process.processTimers (node:internal/timers:514:7)',
   timestamp: 'Oct-14-2024 00:26:31'
 }
+{
+  error: ReferenceError: port is not defined
+      at Server.<anonymous> (C:\Users\ahmet\Desktop\nodejs test\shopapp\app.js:15:38)
+      at Object.onceWrapper (node:events:633:28)
+      at Server.emit (node:events:531:35)
+      at emitListeningNT (node:net:1932:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: port is not defined\n' +
+    'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Tue Oct 15 2024 12:09:42 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 916,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.13.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 73211904,
+      heapTotal: 55939072,
+      heapUsed: 28581376,
+      external: 20577644,
+      arrayBuffers: 18262663
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 524175.468 },
+  trace: [
+    {
+      column: 38,
+      file: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 633,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 531,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1932,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-15-2024 12:09:42'
+}
+{
+  error: ReferenceError: port is not defined
+      at Server.<anonymous> (C:\Users\ahmet\Desktop\nodejs test\shopapp\app.js:15:38)
+      at Object.onceWrapper (node:events:633:28)
+      at Server.emit (node:events:531:35)
+      at emitListeningNT (node:net:1932:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: port is not defined\n' +
+    'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Tue Oct 15 2024 12:10:34 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 3080,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.13.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 70955008,
+      heapTotal: 55939072,
+      heapUsed: 28378272,
+      external: 20577644,
+      arrayBuffers: 18262663
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 524226.875 },
+  trace: [
+    {
+      column: 38,
+      file: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 633,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 531,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1932,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-15-2024 12:10:34'
+}
+{
+  error: ReferenceError: port is not defined
+      at Server.<anonymous> (C:\Users\ahmet\Desktop\nodejs test\shopapp\app.js:15:38)
+      at Object.onceWrapper (node:events:633:28)
+      at Server.emit (node:events:531:35)
+      at emitListeningNT (node:net:1932:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21),
+  level: 'error',
+  message: 'uncaughtException: port is not defined\n' +
+    'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  stack: 'ReferenceError: port is not defined\n' +
+    '    at Server.<anonymous> (C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js:15:38)\n' +
+    '    at Object.onceWrapper (node:events:633:28)\n' +
+    '    at Server.emit (node:events:531:35)\n' +
+    '    at emitListeningNT (node:net:1932:10)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)',
+  exception: true,
+  date: 'Tue Oct 15 2024 12:10:48 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 6824,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v20.13.1',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 71426048,
+      heapTotal: 55939072,
+      heapUsed: 28704072,
+      external: 20577644,
+      arrayBuffers: 18262663
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 524241.39 },
+  trace: [
+    {
+      column: 38,
+      file: 'C:\\Users\\ahmet\\Desktop\\nodejs test\\shopapp\\app.js',
+      function: null,
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 633,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 531,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:net',
+      function: 'emitListeningNT',
+      line: 1932,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 81,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  timestamp: 'Oct-15-2024 12:10:48'
+}
