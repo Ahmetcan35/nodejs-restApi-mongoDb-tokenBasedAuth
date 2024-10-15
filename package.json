@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development DB_PASSWORD=17666361758a JWTPRİVATEKEY=mysecretkey PORT=3000 nodemon app.js ",
-    "prod": "cross-env NODE_ENV=production PORT=8080 nodemon app.js ",
+    "dev": "cross-env NODE_ENV=development DB_PASSWORD=17666361758a JWTPRIVATEKEY=mysecretkey PORT=3000 nodemon app.js ",
+    "prod": "cross-env NODE_ENV=production PORT=8080 node app.js ",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
